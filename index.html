@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./style/bootstrap.min.css">
     <link rel="stylesheet" href="./style/app.css">
     <title>Counter</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 <body class="bg-dark text-center cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <script>
@@ -17,11 +18,14 @@
     </script>
     <main>
         <div class="principal mb-auto">
-           
+           <h2>CONTADOR</h2>
+           <b class="d-block">Escolha uma data</b>
+           <input type="text" name="date" id="date" class="date-form" placeholder="DD/MM/AAAA">
+           <br/>
+           <button type="submit" class="submit-button btn btn-success  mt-3">Começar</button>
         </div>
 
     </main>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="./src/index.js"></script>
 
 </body>
